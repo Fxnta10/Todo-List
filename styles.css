@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --headingBlue: #96d4d3;
+  --white: #ffffff;
+  --blockViolet: #402f73;
+  --bgBlack: #1e1e1e;
+}
+
+body {
+  background-color: var(--bgBlack);
+  font-family: Poppins;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  background-color: var(--headingBlue);
+  text-align: center;
+}
+
+.mainBody {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addTaskForm {
+  margin-left: 50px;
+}
+
+#nameoftask {
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+#addTaskInput {
+  border-radius: 20px;
+  height: 10px;
+  width: 275px;
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+#idButton {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  border-radius: 15px;
+  font-weight: 600;
+  background-color: var(--blockViolet);
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.TodoList {
+  background-color: var(--headingBlue);
+  color: var(--bgBlack);
+  width: 40%;
+  height: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.aboutTask {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 80%;
+  background-color: var(--blockViolet);
+  color: var(--white);
+  align-content: space-between;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 30px;
+}
